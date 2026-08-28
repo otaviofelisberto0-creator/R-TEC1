@@ -1,0 +1,7 @@
+1. Descompacte o ZIP.
+2. Envie index.html, admin.html, .nojekyll e a pasta dados DIRETAMENTE para a raiz do repositorio.
+3. Em Settings > Pages escolha Deploy from a branch, branch main, pasta /(root).
+4. Nao envie o ZIP como unico arquivo e nao deixe os arquivos dentro de uma pasta externa.
+5. Use Ctrl+F5 no link publicado.
+
+GitHub Pages exibe o dashboard, mas nao executa login/upload seguro. Para login e carga automatica use a versao Node.js em uma hospedagem de servidor.
