@@ -1,9 +1,9 @@
-TEC1 - PUBLICAÇÃO NO GITHUB PAGES
+TEC1 GITHUB PAGES - CONFIGURAÇÃO FINAL
 
-1. Envie TODOS os arquivos e a pasta dados diretamente para a raiz do repositório.
-2. Settings > Pages > Deploy from a branch > main > /(root).
-3. Na página Admin, informe a URL do repositório no formato https://github.com/usuario/repositorio.
-4. Use o botão de upload para enviar o JSON mensal à pasta dados.
-5. Edite dados/manifest.json para cadastrar o mês.
+FILTRO GRUPO OS: utiliza a coluna UN_RESP.
+MIGRAÇÃO: UN_RESP=INSTALACAO, GRUPO_OS=SERVICOS, TIPO_OS=MUDANCA DE PACOTE e LISTA_ID_OS=24.
+ADESÃO: UN_RESP=INSTALACAO, GRUPO_OS=INSTALACAO e LISTA_ID_OS em 1, 43, 51 ou 516.
 
-O arquivo 26-08-tec1.json é apenas um modelo vazio e deve ser substituído pelo JSON real.
+Use preferencialmente AA-MM-tec1.json: 26-07-tec1.json e 26-08-tec1.json. Um nome com ponto também funciona se manifest.json usar exatamente o mesmo nome, mas não é recomendado misturar padrões.
+
+Envie index.html, admin.html, .nojekyll e dados/ diretamente à raiz. Configure Pages na branch main e /(root).
