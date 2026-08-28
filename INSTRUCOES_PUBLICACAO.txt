@@ -1,0 +1,9 @@
+TEC1 - PUBLICAÇÃO NO GITHUB PAGES
+
+1. Envie TODOS os arquivos e a pasta dados diretamente para a raiz do repositório.
+2. Settings > Pages > Deploy from a branch > main > /(root).
+3. Na página Admin, informe a URL do repositório no formato https://github.com/usuario/repositorio.
+4. Use o botão de upload para enviar o JSON mensal à pasta dados.
+5. Edite dados/manifest.json para cadastrar o mês.
+
+O arquivo 26-08-tec1.json é apenas um modelo vazio e deve ser substituído pelo JSON real.
